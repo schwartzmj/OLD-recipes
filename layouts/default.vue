@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="pt-24">
     <NuxtLink to="/">Home</NuxtLink>
     <Nuxt />
   </main>
