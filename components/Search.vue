@@ -26,7 +26,7 @@ export default {
       }
 
       this.recipes = await this.$content('recipes')
-        .only(['title', 'slug'])
+        .only(['title', 'path'])
         .sortBy('createdAt', 'asc')
         .limit(12)
         .search(query)
