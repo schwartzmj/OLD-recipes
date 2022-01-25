@@ -24,7 +24,16 @@ tags:
 ## Nutrition
 
 - 4 servings
-- 4g net carbs per serving
+- Serving Size: One quarter of recipe
+- Calories: 325
+- Total Fat: 27g
+- Cholesterol: 82mg
+- Sodium: 302mg
+- Carbohydrates: 7g
+  - Net Carbohydrates: 4g
+  - Fiber: 3g
+  - Sugar: 2g
+- Protein: 17g
 
 ## Notes
 
