@@ -56,15 +56,22 @@ export default {
     },
   },
   mounted() {
-    console.log(this.toc)
     this.toc.forEach((link) => {
       // TODO: Get more accurate scroll spy based on height of anchor's content?
       // Maybe: https://github.com/janpaepke/ScrollMagic/issues/500#issuecomment-216463444
       const scene = this.$scrollmagic
         .scene({ triggerElement: `#${link.id}`, duration: 500 })
-        .setClassToggle(`#${link.id}-nav`, 'bg-stone-300')
+        .setClassToggle(`#${link.id}-nav`, 'triggered')
       this.$scrollmagic.addScene(scene)
     })
   },
 }
 </script>
+<style scoped>
+  .triggered {
+    @apply relative inline-block;
+  }
+  .triggered::before {
+    @apply content-[''] block absolute -left-3 top-1/2 -translate-y-1/2 w-1 h-3 bg-stone-300;
+  }
+</styled>
