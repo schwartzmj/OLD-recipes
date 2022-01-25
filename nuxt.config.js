@@ -57,15 +57,7 @@ export default {
   build: {
     html: {
       minify: {
-        collapseBooleanAttributes: false,
-        decodeEntities: false,
-        // minifyCSS: false,
-        // minifyJS: false,
-        processConditionalComments: false,
-        removeEmptyAttributes: false,
-        removeRedundantAttributes: false,
-        trimCustomFragments: false,
-        useShortDoctype: false
+        minifyCSS: false,
       }
     },
     postcss: {
