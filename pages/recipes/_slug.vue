@@ -3,7 +3,8 @@
     <RecipeNav :toc="recipe.toc" />
     <div class="px-4 py-10">
       <article class="prose prose-lg prose-stone mx-auto">
-        <NuxtImg v-if="recipe.featuredImage" preload :src="recipe.featuredImage" :alt="recipe.title" class="max-h-96 w-auto" />
+        <!-- <NuxtImg v-if="recipe.featuredImage" preload :src="recipe.featuredImage" :alt="recipe.title" class="max-h-96 w-auto" /> -->
+        <NuxtImg v-if="recipe.featuredImage" preload :src="recipe.featuredImage" :alt="recipe.title" width="300" height="300" fit="cover" />
         <h1 class="mb-6">{{ recipe.title }}</h1>
         <div class="not-prose">
           <ul v-if="recipe.tags" class="flex space-x-4 items-center">
