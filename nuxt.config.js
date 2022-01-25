@@ -57,8 +57,8 @@ export default {
   build: {
     html: {
       minify: {
-        removeEmptyAttributes: true,
-        removeRedundantAttributes: true,
+        removeEmptyAttributes: false,
+        removeRedundantAttributes: false,
       }
     },
     postcss: {
