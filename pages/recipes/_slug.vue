@@ -1,7 +1,7 @@
 <template>
   <div>
     <RecipeNav :toc="recipe.toc" />
-    <div class="mt-24 px-4 py-10">
+    <div class="px-4 py-10">
       <article class="prose prose-lg prose-stone mx-auto">
         <NuxtImg v-if="recipe.featuredImage" preload :src="recipe.featuredImage" :alt="recipe.title" class="max-h-96 w-auto" />
         <h1 class="mb-6">{{ recipe.title }}</h1>
