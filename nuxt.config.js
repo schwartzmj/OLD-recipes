@@ -57,6 +57,9 @@ export default {
   build: {
     html: {
       minify: {
+        // Some aspects of Tailwind 3 break (drop-shadow, not-prose) when using Nuxt's default CSS minifier.
+        // https://nuxtjs.org/docs/configuration-glossary/configuration-build/#optimizecss
+        // Can probably customize the underlying package? https://github.com/NMFR/optimize-css-assets-webpack-plugin
         minifyCSS: false,
       }
     },

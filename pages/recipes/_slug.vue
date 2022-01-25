@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div class="inline-block m-12 p-6 bg-green-300 text-green-800 drop-shadow-lg">Test drop shadow</div>
     <RecipeNav :toc="recipe.toc" />
     <div class="mt-24 px-4 py-10">
       <article class="prose prose-lg prose-stone mx-auto">
