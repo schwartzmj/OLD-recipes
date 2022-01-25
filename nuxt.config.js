@@ -59,6 +59,7 @@ export default {
       minify: {
         removeEmptyAttributes: false,
         removeRedundantAttributes: false,
+        trimCustomFragments: false,
       }
     },
     postcss: {
