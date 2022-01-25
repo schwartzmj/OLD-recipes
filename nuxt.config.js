@@ -41,6 +41,7 @@ export default {
     '@nuxt/typescript-build',
     '@nuxt/postcss8',
     '@nuxtjs/google-fonts',
+    '@nuxt/image',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

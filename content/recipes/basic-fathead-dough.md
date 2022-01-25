@@ -1,11 +1,10 @@
 ---
 title: Basic Fathead Dough
 description: Basic FatHead Dough to be used for various recipes.
+featuredImage: /images/recipes/basic-fathead-dough.jpg
 tags:
   - keto
 ---
-
-![Basic FatHead Dough](/images/recipes/basic-fathead-dough.jpg 'Basic FatHead Dough')
 
 ## Ingredients
 

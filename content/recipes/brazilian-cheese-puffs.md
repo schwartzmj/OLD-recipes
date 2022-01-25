@@ -1,11 +1,10 @@
 ---
 title: Brazilian Cheese Puffs
 description: You'll love these keto pão de queijo - otherwise known as Brazilian cheese puffs! They're super cheesy little rolls that are low carb, LCHF, and gluten free!
+featuredImage: /images/recipes/brazilian-cheese-puffs.jpg
 tags:
   - keto
 ---
-
-![Brazilian Cheese Puffs](/images/recipes/brazilian-cheese-puffs.jpg 'Brazilian Cheese Puffs')
 
 ## Ingredients
 

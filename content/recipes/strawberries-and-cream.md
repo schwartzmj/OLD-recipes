@@ -1,12 +1,11 @@
 ---
 title: Strawberries & Cream
 description: Also known as Strawberry Fool, this is not your average Keto Strawberry dessert! Fresh strawberries are macerated, then gently folded in homemade whipped cream.
+featuredImage: /images/recipes/strawberries-and-cream.jpeg
 tags:
   - keto
   - dessert
 ---
-
-![Strawberries & Cream](/images/recipes/strawberries-and-cream.jpeg 'Strawberries & Cream')
 
 ## Ingredients
 
