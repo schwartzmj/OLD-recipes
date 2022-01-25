@@ -9,7 +9,11 @@
           <ul v-if="recipe.tags" class="flex space-x-4 items-center">
               <NuxtLink :to="`/tags/${tag}`" v-for="(tag, i) in recipe.tags" :key="i">
                 <li class="inline-flex items-center px-2 py-1 rounded text-xs uppercase tracking-wide font-semibold"
-                  :class="{ 'text-green-800 bg-green-100': tag === 'keto', 'text-pink-800 bg-pink-100': tag === 'dessert' }"
+                  :class="{
+                    'text-green-800 bg-green-100': tag === 'keto',
+                    'text-pink-800 bg-pink-100': tag === 'dessert',
+                    'text-cyan-800 bg-cyan-100': tag === 'fathead',
+                  }"
                   >
                     {{ tag }}
                 </li>
