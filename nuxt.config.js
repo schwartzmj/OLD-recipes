@@ -22,6 +22,7 @@ export default {
   ],
 
   googleFonts: {
+    display: 'swap',
     families: {
       'Roboto Slab': [100, 200, 300, 400, 500, 600, 700, 800, 900],
     }
