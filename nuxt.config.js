@@ -59,8 +59,8 @@ export default {
       minify: {
         collapseBooleanAttributes: false,
         decodeEntities: false,
-        minifyCSS: false,
-        minifyJS: false,
+        // minifyCSS: false,
+        // minifyJS: false,
         processConditionalComments: false,
         removeEmptyAttributes: false,
         removeRedundantAttributes: false,
