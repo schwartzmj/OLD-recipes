@@ -1,6 +1,6 @@
 <template>
   <div>
-    <input v-model="query" type="search" autocomplete="off" />
+    <input v-model="query" type="search" autocomplete="off" placeholder="Search..." />
 
     <ul v-if="recipes.length">
       <li v-for="recipe of recipes" :key="recipe.slug">
@@ -8,6 +8,7 @@
       </li>
     </ul>
   </div>
+
 </template>
 
 <script>

@@ -4,6 +4,7 @@ description: Basic FatHead Dough to be used for various recipes.
 featuredImage: /images/recipes/basic-fathead-dough.jpg
 tags:
   - keto
+  - fathead
 ---
 
 ## Ingredients

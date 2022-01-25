@@ -4,6 +4,7 @@ description: You'll love these keto pão de queijo - otherwise known as Brazilia
 featuredImage: /images/recipes/brazilian-cheese-puffs.jpg
 tags:
   - keto
+  - fathead
 ---
 
 ## Ingredients
