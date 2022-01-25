@@ -1,8 +1,10 @@
 <template>
-<div>
+  <div>
     <h2>Ingredients</h2>
     <ul>
-      <li v-for="(ingredient, idx) in ingredients" :key="idx">{{ ingredient.title }}</li>
+      <li v-for="(ingredient, idx) in ingredients" :key="idx">
+        {{ ingredient.title }}
+      </li>
     </ul>
   </div>
 </template>
@@ -15,9 +17,9 @@ export default {
       required: true,
       title: {
         type: String,
-        required: true
-      }
-    }
-  }
+        required: true,
+      },
+    },
+  },
 }
 </script>

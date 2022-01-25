@@ -1,6 +1,7 @@
 ---
 title: Lemon Cheesecake Bars
-description: Wow cool Lemon Cheesecake Bars.
+description: You will love these Keto Lemon Cheesecake Bars! With three layers including a sweet shortbread crust, lemon cheesecake and a smooth lemon bar layer these are the ultimate low carb citrus dessert!
+featuredImage: /images/recipes/lemon-cheesecake-bars.jpg
 tags:
   - keto
 ingredients:

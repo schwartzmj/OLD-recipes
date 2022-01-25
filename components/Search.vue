@@ -1,6 +1,11 @@
 <template>
   <div>
-    <input v-model="query" type="search" autocomplete="off" placeholder="Search..." />
+    <input
+      v-model="query"
+      type="search"
+      autocomplete="off"
+      placeholder="Search..."
+    />
 
     <ul v-if="recipes.length">
       <li v-for="recipe of recipes" :key="recipe.slug">
@@ -8,19 +13,18 @@
       </li>
     </ul>
   </div>
-
 </template>
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       query: '',
-      recipes: []
+      recipes: [],
     }
   },
   watch: {
-    async query (query) {
+    async query(query) {
       if (!query) {
         this.recipes = []
         return
@@ -32,7 +36,7 @@ export default {
         .limit(12)
         .search(query)
         .fetch()
-    }
-  }
+    },
+  },
 }
 </script>

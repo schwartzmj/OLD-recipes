@@ -11,8 +11,8 @@ export default {
   async asyncData({ $content, params }) {
     const recipes = await $content('recipes').fetch()
     return {
-      recipes
+      recipes,
     }
-  }
+  },
 }
 </script>
